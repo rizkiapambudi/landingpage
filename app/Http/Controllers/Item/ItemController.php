@@ -24,8 +24,16 @@ class ItemController extends Controller
     public function list()
     {
         //
-        $item = Item::paginate();
-        return response()->json($item);
+        $a = Item::where('code', 'A')->first();
+        $b = Item::where('code', 'B')->first();
+        $c = Item::where('code', 'C')->first();
+        $d = Item::where('code', 'D')->first();
+        return response()->json([
+            'A' => $a,
+            'B' => $b,
+            'C' => $c,
+            'D' => $d,
+        ]);
     }
 
     /**

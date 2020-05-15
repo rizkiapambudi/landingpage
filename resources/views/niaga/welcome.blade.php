@@ -6,6 +6,10 @@
           <title>Niagahoster</title>
           <!-- Tell the browser to be responsive to screen width -->
           <meta name="viewport" content="width=device-width, initial-scale=1">
+
+          <meta name="csrf-token" content="{{ csrf_token() }}">
+          <script>window.Laravel = { csrfToken: '{{ csrf_token() }}' }</script>
+
           <!-- Font Awesome -->
           <link rel="stylesheet" href="{{url('assets/adminlte/plugins/fontawesome-free/css/all.min.css')}}">
           <!-- Ionicons -->
@@ -190,128 +194,8 @@
                 </div>
             </div>
 
-            <!-- Paket choice -->
-            <div class="row" style="margin-top: 100px; text-align: center">
-                <div class="col-md-3">
-                    <div class="card">
-                      <div class="card-header">
-                        <h3><b>Bayi</b></h3>
-                      </div>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <strike>Rp 19.900</strike>
-                            <p>Rp <b><span style="font-size: 40px">14</span>.900</b>/bln</p>
-                        </li>
-                        <li class="list-group-item"><b>938</b> pengguna terakhir</li>
-                        <li class="list-group-item">
-                            <p><b>0.5X RESOURCE POWER</b></p>
-                            <p><b>500 MB</b> Disk Space</p>
-                            <p><b>Unlimited</b> Bandwidth</p>
-                            <p><b>Unlimited</b> Databases</p>
-                            <p><b>1</b> Domain</p>
-                            <p><b>Instant</b> Backup</p>
-                            <p><b>Unlimited SSL</b> Gratis Selamanya</p>
-                            <button style="border-radius: 20px; border-color: black; border-width: 2px; margin-top: 20px" type="button" class="btn"><b>Pilih Sekarang</b></button>
-                        </li>
-                      </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card"">
-                      <div class="card-header">
-                        <h3><b>Pelajar</b></h3>
-                      </div>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <strike>Rp 46.900</strike>
-                            <p>Rp <b><span style="font-size: 40px">23</span>.450</b>/bln</p>
-                        </li>
-                        <li class="list-group-item">4168 pengguna terakhir</li>
-                        <li class="list-group-item">
-                            <p><b>1X RESOURCE POWER</b></p>
-                            <p><b>Unlimited</b> Disk Space</p>
-                            <p><b>Unlimited</b> Bandwidth</p>
-                            <p><b>Unlimited</b> POP3 Email</p>
-                            <p><b>Unlimited</b> Databases</p>
-                            <p><b>10</b> Addon Domains</p>
-                            <p><b>Instant</b> Backup</p>
-                            <p><b>Domain Gratis</b> Selamanya</p>
-                            <p><b>Unlimited SSL</b> Gratis Selamanya</p>
-                            <button style="border-radius: 20px; border-color: black; border-width: 2px; margin-top: 20px" type="button" class="btn"><b>Pilih Sekarang</b></button>
-                        </li>
-                      </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card border-primary" style="border-width: 1px; overflow: hidden">
-                      <div class="corner-ribbon top-left sticky blue shadow">BEST SELLER!</div>
-                      <div class="card-header" style="background-color: #007bff; color: white">
-                        <h3><b>Personal</b></h3>
-                      </div>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item" style="background-color: #007bff; color: white">
-                            <strike>Rp 58.900</strike>
-                            <p>Rp <b><span style="font-size: 40px">38</span>.900</b>/bln</p>
-                        </li>
-                        <li class="list-group-item" style="background-color: blue; color: white">
-                            <b>10.017</b> pengguna terakhir
-                        </li>
-                        <li class="list-group-item">
-                            <p><b>2X RESOURCE POWER</b></p>
-                            <p><b>Unlimited</b> Disk Space</p>
-                            <p><b>Unlimited</b> Bandwidth</p>
-                            <p><b>Unlimited</b> POP3 Email</p>
-                            <p><b>Unlimited</b> Databases</p>
-                            <p><b>Unlimited</b> Addon Domains</p>
-                            <p><b>Instant</b> Backup</p>
-                            <p><b>Domain Gratis</b> Selamanya</p>
-                            <p><b>Unlimited SSL</b> Gratis Selamanya</p>
-                            <p><b>Private</b> Name Server</p>
-                            <p><b>SpamAssassin</b> Mail Protection</p>
-                            <button style="border-radius: 20px; border-width: 2px; margin-top: 20px" type="button" class="btn btn-primary"><b>Pilih Sekarang</b></button>
-                        </li>
-                      </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card" style="border-width: 1px">
-                      <div class="card-header">
-                        <h3><b>Bisnis</b></h3>
-                      </div>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <strike>Rp 109.900</strike>
-                            <p>Rp <b><span style="font-size: 40px">65</span>.900</b>/bln</p>
-                        </li>
-                        <li class="list-group-item">
-                            <b>3.552</b> pengguna terakhir
-                        </li>
-                        <li class="list-group-item">
-                            <p><b>3X RESOURCE POWER</b></p>
-                            <p><b>Unlimited</b> Disk Space</p>
-                            <p><b>Unlimited</b> Bandwidth</p>
-                            <p><b>Unlimited</b> POP3 Email</p>
-                            <p><b>Unlimited</b> Databases</p>
-                            <p><b>Unlimited</b> Addon Domains</p>
-                            <p><b>Magic Auto</b> Backup & Restore</p>
-                            <p><b>Domain Gratis</b> Selamanya</p>
-                            <p><b>Unlimited SSL</b> Gratis Selamanya</p>
-                            <p><b>Private</b> Name Server</p>
-                            <p style="margin-bottom: 5px"><b>Prioritas</b> Layanan Support</p>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <p><b>SpamExpert</b> Pro Mail Protection</p>
-                            <button style="border-radius: 20px; border-color: black; border-width: 2px; margin-top: 20px" type="button" class="btn"><b>Diskon 40%</b></button>
-                        </li>
-                      </ul>
-                    </div>
-                </div>
+            <div id="app">
+                <articles></articles>
             </div>
 
             <!-- Powerful -->
@@ -658,6 +542,11 @@
 
         </div>
 
+        <!-- vuejs -->
+        <script src="{{asset('js/app.js')}}"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
         <script src="{{url('assets/adminlte/plugins/jquery/jquery.min.js')}}"></script>
         <!-- jQuery UI 1.11.4 -->
         <script src="{{url('assets/adminlte/plugins/jquery-ui/jquery-ui.min.js')}}"></script>
@@ -691,9 +580,6 @@
         <script src="{{url('assets/adminlte/dist/js/pages/dashboard.js')}}"></script>
         <!-- AdminLTE for demo purposes -->
         <script src="{{url('assets/adminlte/dist/js/demo.js')}}"></script>
-
-        <!-- VueJS -->
-        <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
 
     </body>
 </html>

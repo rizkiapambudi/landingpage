@@ -1,3 +1,28 @@
+
+## How to install
+
+1. composer install
+
+2. Copy file .env.example, paste, rename menjadi .env
+Buat database baru di MySQL dengan nama 'dummy' atau terserah
+Buka file .env, ubah nilai DB_DATABASE menjadi 'dummy'
+
+3. php artisan key:generate
+
+4. npm install
+
+5. php artisan migrate
+
+6. php artisan db:seed
+
+7. php artisan serve
+
+8. Buka localhost:8000
+
+Selesai
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:

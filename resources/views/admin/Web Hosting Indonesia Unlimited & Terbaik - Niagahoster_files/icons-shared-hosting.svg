@@ -1,0 +1,35 @@
+<svg id="a9ef8228-2267-4216-b0d3-ce70dde8c165" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92">
+  <defs>
+    <style>
+      .ef2e5b6f-443b-467a-80b2-9b059dde6316 {
+        fill: #007aff;
+      }
+
+      .a3f95f6e-626b-493f-9975-9a5352280894, .ea32362e-c7f0-4886-8dcf-89f754a50ec9 {
+        fill: none;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .ea32362e-c7f0-4886-8dcf-89f754a50ec9 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <title>icons</title>
+  <g>
+    <circle class="ef2e5b6f-443b-467a-80b2-9b059dde6316" cx="46" cy="46" r="46"/>
+    <g>
+      <rect class="a3f95f6e-626b-493f-9975-9a5352280894" x="26" y="37.3" width="40" height="13.55" rx="4"/>
+      <line class="ea32362e-c7f0-4886-8dcf-89f754a50ec9" x1="32.45" y1="44.07" x2="51.16" y2="44.07"/>
+      <circle class="ea32362e-c7f0-4886-8dcf-89f754a50ec9" cx="58.58" cy="44.07" r="1.68"/>
+      <path class="ea32362e-c7f0-4886-8dcf-89f754a50ec9" d="M50.21,30.44h4.42a5.49,5.49,0,0,1,3.57,1.41l6.61,6.61"/>
+      <path class="ea32362e-c7f0-4886-8dcf-89f754a50ec9" d="M27.16,38.49l6.57-6.64a4.89,4.89,0,0,1,3.57-1.41H50.38"/>
+      <line class="a3f95f6e-626b-493f-9975-9a5352280894" x1="46" y1="50.85" x2="46" y2="55.04"/>
+      <line class="ea32362e-c7f0-4886-8dcf-89f754a50ec9" x1="56.55" y1="59.23" x2="50.07" y2="59.23"/>
+      <line class="ea32362e-c7f0-4886-8dcf-89f754a50ec9" x1="41.77" y1="59.23" x2="35.3" y2="59.23"/>
+      <path class="ea32362e-c7f0-4886-8dcf-89f754a50ec9" d="M48.29,57.3h-.16v-.66a1.6,1.6,0,0,0-1.6-1.6H45.47a1.6,1.6,0,0,0-1.6,1.6v.66h-.16a1.79,1.79,0,0,0-1.78,1.79v.69a1.78,1.78,0,0,0,1.78,1.78h4.58a1.78,1.78,0,0,0,1.78-1.78v-.69A1.79,1.79,0,0,0,48.29,57.3Z"/>
+    </g>
+  </g>
+</svg>

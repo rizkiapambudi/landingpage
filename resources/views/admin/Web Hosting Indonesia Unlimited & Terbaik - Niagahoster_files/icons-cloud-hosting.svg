@@ -1,0 +1,28 @@
+<svg id="bffc695d-6bc4-4d9b-b7b0-93c97e85ca89" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92">
+  <defs>
+    <style>
+      .f6a636b8-893e-4b02-a956-77f0653efd1b {
+        fill: #007aff;
+      }
+
+      .aa1393b3-05ef-4264-a051-5f96cfbf9f29, .bed3e66f-bbec-4d6d-ade8-6fc7bd4563f6 {
+        fill: none;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .bed3e66f-bbec-4d6d-ade8-6fc7bd4563f6 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <title>icons</title>
+  <g>
+    <circle class="f6a636b8-893e-4b02-a956-77f0653efd1b" cx="46" cy="46" r="46"/>
+    <g>
+      <path class="aa1393b3-05ef-4264-a051-5f96cfbf9f29" d="M59.39,41.68a11,11,0,0,0-21-1.84h-.32a7.55,7.55,0,0,0-7.54,7.23A4,4,0,0,0,30,47a4,4,0,1,0,0,7.93h29.4a6.63,6.63,0,0,0,0-13.26Z"/>
+      <line class="bed3e66f-bbec-4d6d-ade8-6fc7bd4563f6" x1="32.89" y1="59.06" x2="59.11" y2="59.06"/>
+    </g>
+  </g>
+</svg>
